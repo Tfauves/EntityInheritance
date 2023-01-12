@@ -12,4 +12,12 @@ public class AdminProfile extends Profile {
         super(type, username, email, zipcode);
         this.serviceArea = serviceArea;
     }
+
+    public String getServiceArea() {
+        return serviceArea;
+    }
+
+    public void setServiceArea(String serviceArea) {
+        this.serviceArea = serviceArea;
+    }
 }

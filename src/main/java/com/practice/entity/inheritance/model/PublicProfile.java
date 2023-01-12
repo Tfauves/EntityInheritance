@@ -12,4 +12,12 @@ public class PublicProfile extends Profile {
         super(type, username, email, zipcode);
         this.issuesReported = issuesReported;
     }
+
+    public Integer getIssuesReported() {
+        return issuesReported;
+    }
+
+    public void setIssuesReported(Integer issuesReported) {
+        this.issuesReported = issuesReported;
+    }
 }

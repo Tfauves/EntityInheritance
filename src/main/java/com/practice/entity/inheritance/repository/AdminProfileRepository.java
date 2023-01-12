@@ -1,4 +1,7 @@
 package com.practice.entity.inheritance.repository;
 
-public interface AdminProfileRepository {
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface AdminProfileRepository extends ProfileRepository {
 }
